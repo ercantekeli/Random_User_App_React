@@ -2,9 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: start;
 }
-
 .logo{
     width: 1rem;
     height: 1rem;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.card-img{
+border-radius: 50%;
+}
+.card-container{
+   border:  1px solid black;
+}
+.cardbelow{
+    background-color: rgb(216, 208, 197);
 }
