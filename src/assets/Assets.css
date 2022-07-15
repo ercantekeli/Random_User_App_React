@@ -7,6 +7,7 @@
 .logo{
     width: 1rem;
     height: 1rem;
+    margin-right: 1.5rem;
 }
 .card{
     display: flex;
@@ -16,10 +17,18 @@
 }
 .card-img{
 border-radius: 50%;
+padding: 1.5rem;
+width: 18rem;
+height: 18rem;
 }
 .card-container{
    border:  1px solid black;
+   height: 31rem;
+   width: 18rem;
 }
 .cardbelow{
     background-color: rgb(216, 208, 197);
+}
+button{
+    margin: 1rem;
 }

@@ -41,7 +41,7 @@ const AssetsMui = () => {
             image={card?.picture.large}
             alt="green iguana"
           />
-          <CardContent className="cardbelow">
+          <CardContent className="cardbelow" >
             <Typography gutterBottom variant="h5" component="div">
               {card?.name.title +
                 " " +
@@ -51,7 +51,7 @@ const AssetsMui = () => {
                 " " +
                 card?.name.last}
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" sx={{ display: "flex", flexDirection:"column", justifyContent: "center", alignItems:"center"  }}>
               <nav>
                 <p>
                   {" "}
@@ -84,7 +84,7 @@ const AssetsMui = () => {
                 <p>Age : {card?.dob.age}</p>
                 <p>Register Date : {card?.registered.date.slice(0, 10)}</p>
               </nav>
-              <Button variant="contained" onClick={handleClick}>
+              <Button sx={{margin: 1}} variant="contained" onClick={handleClick}>
                 RANDOM USER
               </Button>
             </Typography>
