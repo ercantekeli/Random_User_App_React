@@ -23,12 +23,21 @@ height: 18rem;
 }
 .card-container{
    border:  1px solid black;
-   height: 31rem;
-   width: 18rem;
+   min-height: 31rem;
+   min-width: 18rem;
 }
 .cardbelow{
     background-color: rgb(216, 208, 197);
 }
 button{
     margin: 1rem;
+}
+.ageDate{
+    margin-left: 2.5rem;
+}
+.name{
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
